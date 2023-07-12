@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "581721687890",
+    "firebase_url": "https://takeadoggy-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "takeadoggy",
+    "storage_bucket": "takeadoggy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581721687890:android:4163da09384114d6e01c8b",
+        "android_client_info": {
+          "package_name": "com.example.takeadoggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581721687890-8tlm31srh2614ht8a1daht6d366oes8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJY10Y10vxyDFGVNTPanBBIHgo3oYXvjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581721687890-7ehg5o33eq936stp1ou0htbnajhtf3e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

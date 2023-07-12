@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TakeADoggy</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="i_am_financially_ready_for_a_dog">I am financially ready for a dog</string>
+    <string name="i_am_committed_to_training_and_socializing_a_dog">I am committed to training and socializing a dog</string>
+    <string name="i_owned_a_dog_before">I owned a dog before</string>
+    <string name="i_owned_a_dog_this_breed_before">I owned a dog this breed before</string>
+    <string name="i_live_in_a_house_with_garden">I live in a house with garden</string>
+    <string name="i_live_in_a_small_appartment">I live in a small appartment</string>
+    <string name="i_live_in_a_medium_appartment">I live in a medium appartment</string>
+    <string name="i_have_children_up_to_age_12">I have children up to age 12</string>
+    <string name="i_have_cats">I have cats</string>
+    <string name="i_have_other_dogs">I have other dogs</string>
+    <string name="my_house_is_empty_most_of_the_time">My house is empty most of the time</string>
+    <string name="i_m_looking_for_an_active_outdoor_dog">I\'m looking for an active/outdoor dog</string>
+    <string name="i_prefer_a_more_relaxed_dog">I prefer a more relaxed dog</string>
+
+
+    <string name="facebook_app_id">646568567064428</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56add8d1928f028f6606c93505a5a747</string>
+    <string name="to_main_menu">main menu</string>
+    <string name="all_the_doggies">All the doggies</string>
+    <string name="my_favourite_doggies">My favourite doggies</string>
+    <string name="quiz_my_perfect_dog">Quiz: My perfect doggy!</string>
+    <string name="welcome_to_takeadoggy">Welcome to TakeADoggy!</string>
+
+
+</resources>

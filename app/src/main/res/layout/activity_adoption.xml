@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/adopt_LBL_question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/i_am_financially_ready_for_a_dog"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer1"
+        android:text="@string/i_am_committed_to_training_and_socializing_a_dog"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer1"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/adopt_LBL_answer2"
+        android:text="@string/i_owned_a_dog_before"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer2"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer3"
+        android:text="@string/i_owned_a_dog_this_breed_before"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer3"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer4"
+        android:text="@string/i_live_in_a_house_with_garden"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer4"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer5"
+        android:text="@string/i_live_in_a_small_appartment"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer5"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer6"
+        android:text="@string/i_live_in_a_medium_appartment"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer6"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer7"
+        android:text="@string/i_have_children_up_to_age_12"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer7"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer8"
+        android:text="@string/i_have_cats"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer8"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer9"
+        android:text="@string/i_have_other_dogs"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer9"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer10"
+        android:text="@string/my_house_is_empty_most_of_the_time"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer10"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/adopt_LBL_answer11"
+        android:text="@string/i_m_looking_for_an_active_outdoor_dog"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer11"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/adopt_LBL_question13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/adopt_LBL_answer12"
+        android:text="@string/i_prefer_a_more_relaxed_dog"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="25dp" />
+
+    <ToggleButton
+        android:id="@+id/adopt_LBL_answer13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adopt_LBL_answer12"
+        android:text="Toggle Answer"
+        android:layout_alignParentEnd="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/adopt_BTN_check"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/adopt_LBL_answer13"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="CHECK"
+        android:textSize="20sp" />
+
+</RelativeLayout>

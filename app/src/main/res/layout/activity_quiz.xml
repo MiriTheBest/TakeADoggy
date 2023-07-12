@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz_LBL_question"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:minLines="1"
+        android:maxLines="2"
+        android:text="Here is a question"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quiz_LBL_description"
+        android:layout_below="@id/quiz_LBL_question"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:minLines="1"
+        android:maxLines="3"
+        android:text="Here is a description"
+        android:textSize="20dp"
+        >
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_ANIM_lottie2"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_above="@id/main_LAYOUT_buttons1"
+        android:layout_centerInParent="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/dog_love"
+        app:lottie_speed="1.0" />
+
+    <LinearLayout
+        android:id="@+id/main_LAYOUT_buttons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_LAYOUT_buttons2"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/quiz_BTN_option1"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Op1"
+            android:textSize="10sp"/>
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/quiz_BTN_option2"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Op2"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_LAYOUT_buttons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="50dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/quiz_BTN_option3"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Op3"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/quiz_BTN_option4"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="Op4"
+            android:textSize="10sp" />
+    </LinearLayout>
+</RelativeLayout>

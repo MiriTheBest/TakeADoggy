@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="5dp"
+        android:text="log out" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_welcome"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/welcome_to_takeadoggy"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        >
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_ANIM_lottie"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lottie_rawRes="@raw/dog_love"
+        app:lottie_loop="false"
+        app:lottie_speed="1.0"
+        />
+    <LinearLayout
+        android:id="@+id/menu_buttons"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/lottie_ANIM_lottie"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/all_the_doggies" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/my_favourite_doggies" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/quiz_my_perfect_dog" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
