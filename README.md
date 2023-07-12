@@ -15,4 +15,6 @@ before user wants to adopt, they need to take the test to find out if they are c
 
 user need to authorize through mail
 
+additional features that were used: lottie animation and sounds
+
 see the video preview
